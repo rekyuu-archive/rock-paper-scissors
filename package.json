@@ -1,10 +1,10 @@
 {
   "name": "gulp-skeleton",
   "version": "1.0.0",
-  "description": "Blank website using gulp and Skeleton-Sass.",
+  "description": "Node.js + Socket.IO web game.",
   "main": "index.js",
-  "author": "bo1g",
-  "repository": "https://github.com/bo1g/gulp-skeleton",
+  "author": "rekyuu",
+  "repository": "https://github.com/rekyuu/rock-paper-scissors",
   "license": "MIT",
   "devDependencies": {
     "del": "^1.2.1",
