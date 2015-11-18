@@ -1,0 +1,32 @@
+extends templates/layout
+
+block content
+   #header.grid
+      .row
+         .col-1-1
+            h1 Rock, paper, scissors
+   #login
+      h4 Enter a username
+      input.username(type='text', maxlength='14')
+   #game.grid
+      .row
+         #field.col-3-12
+            h4 Choices
+            
+            input(type='radio' name='choice' value='rock' id='rock' checked)
+            label(for='rock') Rock
+            br
+            input(type='radio'  name='choice' value='paper' id='paper')
+            label(for='paper') Paper
+            br
+            input(type='radio'  name='choice' value='scissors' id='scissors')
+            label(for='scissors') Scissors
+            br
+            button.submit Submit
+         #info.col-6-12
+            h4 Information            
+            h1.info Waiting for players...
+         #players.col-3-12
+            h4 Players (Max 2)
+            
+            ul.user_list

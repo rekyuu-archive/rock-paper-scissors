@@ -1,0 +1,22 @@
+{
+  "name": "gulp-skeleton",
+  "version": "1.0.0",
+  "description": "Blank website using gulp and Skeleton-Sass.",
+  "main": "index.js",
+  "author": "bo1g",
+  "repository": "https://github.com/bo1g/gulp-skeleton",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.2.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "jade": "^1.11.0",
+    "socket.io": "^1.3.6"
+  }
+}
